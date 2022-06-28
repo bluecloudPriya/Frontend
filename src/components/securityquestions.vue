@@ -223,7 +223,7 @@ methods: {
 
 }
 //console.log(sdata)
-// var cortrectanswers=['dd', 'ww', 'qq', 'ee', 'tt'];             
+ var cortrectanswers=['dd', 'ww', 'qq', 'ee', 'tt'];             
  this.responsedata=loginapi.securityanscheck(sdata,this.id).then(response=>{
  console.log(response,"response data");
  console.log(response.data.answers)
